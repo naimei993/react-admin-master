@@ -3,10 +3,6 @@ import ReactECharts from 'echarts-for-react';
 import cloneDeep from 'lodash.clonedeep';
 import { Card ,Steps,Carousel} from 'antd';
 import './home.min.css'
-import img1 from '../../static/img/img1.jpg'
-import img2 from '../../static/img/img2.jpg'
-import img3 from '../../static/img/img3.jpg'
-import img4 from '../../static/img/img4.jpg'
 const { Step } = Steps;
 const Home = () => {
   const DEFAULT_OPTION = {
@@ -182,16 +178,16 @@ const Home = () => {
         <div className="top-center">
         <Carousel autoplay>
     <div>
-      <img  style={contentStyle}src={img1} alt="img"/>
+      <img  style={contentStyle}src='http://images1.wenming.cn/web_wenming/photo/tuji/202011/W020201130584455404015.jpg' alt="img"/>
     </div>
     <div>
-    <img style={contentStyle} src={img2} alt="img"/>
+    <img style={contentStyle} src='http://images.wenming.cn/web_wenming/photo/jincai/202011/W020201129331611631025.jpg' alt="img"/>
     </div>
     <div>
-    <img style={contentStyle} src={img3} alt="img"/>
+    <img style={contentStyle} src='http://images1.wenming.cn/web_wenming/photo/jincai/202004/W020200419503248513947.jpg' alt="img"/>
     </div>
     <div>
-    <img style={contentStyle} src={img4} alt="img"/>
+    <img style={contentStyle} src='http://images1.wenming.cn/web_wenming/photo/jincai/202004/W020200419505525813050.jpg' alt="img"/>
     </div>
   </Carousel>,
         </div>
